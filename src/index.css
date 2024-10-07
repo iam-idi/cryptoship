@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.active{
+    @apply border-b-2 border-stone-600 text-stone-600
+}
+
+@media (max-width: 361px) {
+    .small-screens {
+        width: 250vw;
+    }
+}
+@media (max-width: 260px) {
+    .very-small-screens {
+        width: 300vw;
+    }
+}
